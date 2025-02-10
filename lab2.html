@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: greenyellow;
+            font-family: Arial, sans-serif;
+        }
+
+        .input-container {
+            margin: 20px;
+        }
+
+        label {
+            font-size: 18px;
+        }
+
+        input[type="text"] {
+            margin: 5px;
+            padding: 5px;
+            width: 200px;
+        }
+
+        input[type="submit"] {
+            background-color: blue;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Login Page</h1>
+
+    <form action="lab2success.html" method="get">
+        <div class="input-container">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
